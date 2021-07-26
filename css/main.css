@@ -278,6 +278,10 @@ h3 {
           box-shadow: 0px 4px 4px 0px #00000026;
 }
 
+.skills__section {
+  padding-top: 94px;
+}
+
 .skills__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,10 +321,6 @@ h3 {
 .skills__list__text {
   color: var(--grey-color);
   font-weight: 400;
-}
-
-.activities {
-  padding-top: 0;
 }
 
 .activities__title {
@@ -670,9 +670,8 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .project-list-item {
